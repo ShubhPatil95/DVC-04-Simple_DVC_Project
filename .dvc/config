@@ -1,0 +1,4 @@
+[core]
+    remote = my_local_remote
+['remote "my_local_remote"']
+    url = /home/shubham/tutorial/dvc-1/DVC_Remote
