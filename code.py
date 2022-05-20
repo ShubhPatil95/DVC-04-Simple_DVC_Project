@@ -10,7 +10,7 @@ df = pd.read_csv("data.csv")
 df.head()
 
 ## Drop Absent Students
-df.drop(df[df["Marks"]=="Absent"].index,inplace=True)
+## df.drop(df[df["Marks"]=="Absent"].index,inplace=True)
 
 ## Data Preprocessing
 X = df.Hours.values.reshape(-1,1)
