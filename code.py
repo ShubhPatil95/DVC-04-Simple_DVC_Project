@@ -1,5 +1,5 @@
 
-##  School-1 Experiment
+##  School-2 Experiment
 
 import pandas as pd
 from sklearn.linear_model import LinearRegression
@@ -8,6 +8,9 @@ from sklearn.metrics import r2_score
 ## Read Data
 df = pd.read_csv("data.csv")
 df.head()
+
+## Drop Absent Students
+df.drop(df[df["Marks"]=="Absent"].index,inplace=True)
 
 ## Data Preprocessing
 X = df.Hours.values.reshape(-1,1)
@@ -21,3 +24,4 @@ Y_Pred = lr.predict(X)
 ## Metrics Evaluation
 r_square = r2_score(Y,Y_Pred)
 print(f"r_square = {r_square}")
+
