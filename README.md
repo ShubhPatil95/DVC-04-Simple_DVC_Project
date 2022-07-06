@@ -1,4 +1,4 @@
-<h2> <a href="https://github.com/ShubhPatil95/DVC-04-Simple_Project"> 04-Simple_DVC_Project </a></h2>
+<h2> <a href="https://github.com/ShubhPatil95/DVC-04-Simple_DVC_Project"> 04-Simple_DVC_Project </a></h2>
 
 <p>
 <strong> Here in this tutorial we will see how we can use DVC to track the respective code and data </strong>
